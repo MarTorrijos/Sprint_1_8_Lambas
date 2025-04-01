@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        List<String> stringList = Arrays.asList("aguacate", "berberecho", "calcetín");
+        List<String> stringList = Arrays.asList("aguacate", "berberecho", "calcetín", "perro");
 
         stringList.stream()
                 .filter(word -> word.contains("o"))
