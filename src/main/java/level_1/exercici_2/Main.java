@@ -10,7 +10,8 @@ public class Main {
         List<String> stringList = Arrays.asList("aguacate", "berberecho", "calcetín", "perro");
 
         stringList.stream()
-                .filter(word -> word.contains("o") && word.length() > 5)
+                .filter(word -> word.contains("o")
+                        && word.length() > 5)
                 .forEach(System.out::println);
     }
 

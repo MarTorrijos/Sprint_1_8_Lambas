@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        List<Object> list = Arrays.asList("Carbonara", 1000, "The spice must flow", 0.89, "Ensaimadas con pasas");
+        List<Object> list = Arrays.asList("Carbonara", 1000, "The spice must flow", 0.89, "1", "Ensaimadas con pasas");
         String line = "----------------------------------";
 
         System.out.println("Lista original:\n" + list  + "\n" + line);
@@ -22,7 +22,6 @@ public class Main {
                 + new StringChanger().changeATo4(list) + "\n" + line);
         System.out.println("Solo mostramos los números:\n"
                 + new StringChanger().showNumbersOnly(list));
-
     }
 
 }

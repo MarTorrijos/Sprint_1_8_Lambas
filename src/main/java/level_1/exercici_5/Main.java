@@ -8,7 +8,6 @@ public class Main {
         PiValue piValue = () -> 3.1415;
 
         System.out.println(piValue.getPiValue());
-
     }
 
 }
